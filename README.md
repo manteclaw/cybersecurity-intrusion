@@ -1,8 +1,32 @@
+![Records](https://img.shields.io/badge/records-2000-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Price](https://img.shields.io/badge/price-49-brightgreen)
+
 # Cybersecurity Network Intrusion Detection
 
 Network intrusion detection dataset with 41+ connection features, attack categorization, and severity labels for cybersecurity ML models.
 
 ## Dataset Overview
+
+## Data Dictionary
+
+| Field | Type | Description |
+|-------|------|-------------|
+| duration | float | Connection duration in seconds |
+| protocol_type | string | TCP/UDP/ICMP/HTTP/HTTPS |
+| service | string | http/smtp/ftp/ssh/dns/etc. |
+| flag | string | Connection status flag |
+| src_bytes | integer | Bytes sent |
+| dst_bytes | integer | Bytes received |
+| count | integer | Connections to same host |
+| srv_count | integer | Connections to same service |
+| serror_rate | float | SYN error rate |
+| same_srv_rate | float | Same service rate |
+| attack_type | string | Specific attack name |
+| attack_category | string | normal/dos/probe/r2l/u2r |
+| severity | string | none/low/medium/high/critical |
+
+
 
 | Property | Value |
 |----------|-------|
@@ -60,3 +84,16 @@ This dataset is licensed under [CC-BY-SA-4.0](https://creativecommons.org/licens
 
 ---
 *Dataset curated by [Manteclaw](https://github.com/manteclaw). For inquiries: manteclaw@proton.me*
+
+## More Datasets from Manteclaw
+
+| Dataset | Records | Price | Link |
+|---------|---------|-------|------|
+| DeFi Protocol Risk Metrics | 1,639 | $49 | [GitHub](https://github.com/manteclaw/defi-risk) |
+| Drug Interaction & Pharmacology | 2,231 | $35 | [GitHub](https://github.com/manteclaw/pharmacology) |
+| Warehouse Robotics & Logistics | 2,000 | $50 | [GitHub](https://github.com/manteclaw/warehouse-logistics) |
+| LLM Safety & Red Teaming | 2,000 | $49 | [GitHub](https://github.com/manteclaw/llm-safety) |
+| Crypto Quant Trading Signals | 1,500 | $69 | [GitHub](https://github.com/manteclaw/crypto-quant) |
+| Cybersecurity Intrusion Detection | 2,000 | $49 | [GitHub](https://github.com/manteclaw/cybersecurity-intrusion) |
+
+**All datasets available at:** https://payhip.com/Manteclaw
