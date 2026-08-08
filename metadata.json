@@ -1,0 +1,262 @@
+{
+  "name": "Cybersecurity Network Intrusion Detection",
+  "description": "Network intrusion detection dataset with 41+ connection features, attack categorization, and severity labels for cybersecurity ML models.",
+  "record_count": 2000,
+  "sample_size": 100,
+  "price": "$49",
+  "currency": "USD",
+  "license": "CC-BY-SA-4.0",
+  "tags": [
+    "cybersecurity",
+    "intrusion-detection",
+    "network-security",
+    "ml",
+    "anomaly-detection"
+  ],
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "description": "Field: id"
+    },
+    {
+      "name": "duration",
+      "type": "string",
+      "description": "Field: duration"
+    },
+    {
+      "name": "protocol_type",
+      "type": "string",
+      "description": "Field: protocol_type"
+    },
+    {
+      "name": "service",
+      "type": "string",
+      "description": "Field: service"
+    },
+    {
+      "name": "flag",
+      "type": "string",
+      "description": "Field: flag"
+    },
+    {
+      "name": "src_bytes",
+      "type": "string",
+      "description": "Field: src_bytes"
+    },
+    {
+      "name": "dst_bytes",
+      "type": "string",
+      "description": "Field: dst_bytes"
+    },
+    {
+      "name": "land",
+      "type": "string",
+      "description": "Field: land"
+    },
+    {
+      "name": "wrong_fragment",
+      "type": "string",
+      "description": "Field: wrong_fragment"
+    },
+    {
+      "name": "urgent",
+      "type": "string",
+      "description": "Field: urgent"
+    },
+    {
+      "name": "hot",
+      "type": "string",
+      "description": "Field: hot"
+    },
+    {
+      "name": "num_failed_logins",
+      "type": "string",
+      "description": "Field: num_failed_logins"
+    },
+    {
+      "name": "logged_in",
+      "type": "string",
+      "description": "Field: logged_in"
+    },
+    {
+      "name": "num_compromised",
+      "type": "string",
+      "description": "Field: num_compromised"
+    },
+    {
+      "name": "root_shell",
+      "type": "string",
+      "description": "Field: root_shell"
+    },
+    {
+      "name": "su_attempted",
+      "type": "string",
+      "description": "Field: su_attempted"
+    },
+    {
+      "name": "num_root",
+      "type": "string",
+      "description": "Field: num_root"
+    },
+    {
+      "name": "num_file_creations",
+      "type": "string",
+      "description": "Field: num_file_creations"
+    },
+    {
+      "name": "num_shells",
+      "type": "string",
+      "description": "Field: num_shells"
+    },
+    {
+      "name": "num_access_files",
+      "type": "string",
+      "description": "Field: num_access_files"
+    },
+    {
+      "name": "num_outbound_cmds",
+      "type": "string",
+      "description": "Field: num_outbound_cmds"
+    },
+    {
+      "name": "is_host_login",
+      "type": "string",
+      "description": "Field: is_host_login"
+    },
+    {
+      "name": "is_guest_login",
+      "type": "string",
+      "description": "Field: is_guest_login"
+    },
+    {
+      "name": "count",
+      "type": "string",
+      "description": "Field: count"
+    },
+    {
+      "name": "srv_count",
+      "type": "string",
+      "description": "Field: srv_count"
+    },
+    {
+      "name": "serror_rate",
+      "type": "string",
+      "description": "Field: serror_rate"
+    },
+    {
+      "name": "srv_serror_rate",
+      "type": "string",
+      "description": "Field: srv_serror_rate"
+    },
+    {
+      "name": "rerror_rate",
+      "type": "string",
+      "description": "Field: rerror_rate"
+    },
+    {
+      "name": "srv_rerror_rate",
+      "type": "string",
+      "description": "Field: srv_rerror_rate"
+    },
+    {
+      "name": "same_srv_rate",
+      "type": "string",
+      "description": "Field: same_srv_rate"
+    },
+    {
+      "name": "diff_srv_rate",
+      "type": "string",
+      "description": "Field: diff_srv_rate"
+    },
+    {
+      "name": "srv_diff_host_rate",
+      "type": "string",
+      "description": "Field: srv_diff_host_rate"
+    },
+    {
+      "name": "dst_host_count",
+      "type": "string",
+      "description": "Field: dst_host_count"
+    },
+    {
+      "name": "dst_host_srv_count",
+      "type": "string",
+      "description": "Field: dst_host_srv_count"
+    },
+    {
+      "name": "dst_host_same_srv_rate",
+      "type": "string",
+      "description": "Field: dst_host_same_srv_rate"
+    },
+    {
+      "name": "dst_host_diff_srv_rate",
+      "type": "string",
+      "description": "Field: dst_host_diff_srv_rate"
+    },
+    {
+      "name": "dst_host_same_src_port_rate",
+      "type": "string",
+      "description": "Field: dst_host_same_src_port_rate"
+    },
+    {
+      "name": "dst_host_srv_diff_host_rate",
+      "type": "string",
+      "description": "Field: dst_host_srv_diff_host_rate"
+    },
+    {
+      "name": "dst_host_serror_rate",
+      "type": "string",
+      "description": "Field: dst_host_serror_rate"
+    },
+    {
+      "name": "dst_host_srv_serror_rate",
+      "type": "string",
+      "description": "Field: dst_host_srv_serror_rate"
+    },
+    {
+      "name": "dst_host_rerror_rate",
+      "type": "string",
+      "description": "Field: dst_host_rerror_rate"
+    },
+    {
+      "name": "dst_host_srv_rerror_rate",
+      "type": "string",
+      "description": "Field: dst_host_srv_rerror_rate"
+    },
+    {
+      "name": "attack_type",
+      "type": "string",
+      "description": "Field: attack_type"
+    },
+    {
+      "name": "attack_category",
+      "type": "string",
+      "description": "Field: attack_category"
+    },
+    {
+      "name": "severity",
+      "type": "string",
+      "description": "Field: severity"
+    },
+    {
+      "name": "timestamp",
+      "type": "string",
+      "description": "Field: timestamp"
+    },
+    {
+      "name": "data_source",
+      "type": "string",
+      "description": "Field: data_source"
+    },
+    {
+      "name": "is_synthetic",
+      "type": "string",
+      "description": "Field: is_synthetic"
+    }
+  ],
+  "source": "Synthetic / Curated",
+  "created": "2026-08-08",
+  "contact": "manteclaw@proton.me",
+  "store_url": "https://manteclaw.gumroad.com"
+}
